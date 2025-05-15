@@ -1,4 +1,4 @@
---{{config(materialized = 'table', transient =  false)}}
+
 
 with dim_listings_cleansed as (
     Select * from {{ ref('src_listings')}}

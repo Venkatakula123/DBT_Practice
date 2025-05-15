@@ -1,4 +1,4 @@
---{{config(materialized = 'table',transient = false)}}
+
 
 with dim_hosts_cleansed as (
     Select * from {{ ref('src_hosts')}}
