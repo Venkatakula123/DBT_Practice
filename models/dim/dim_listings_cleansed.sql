@@ -1,7 +1,5 @@
 --{{config(materialized = 'table', transient =  false)}}
 
---{{config(materialized='table')}}
-
 with dim_listings_cleansed as (
     Select * from {{ ref('src_listings')}}
 )
