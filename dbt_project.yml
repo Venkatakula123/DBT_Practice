@@ -37,9 +37,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   DBT_Practice:
-    models:
-      +materialized: table
-      dim:
-        +materialized: view
+    +materialized: table
+    dim:
+      +materialized: view
 
 
