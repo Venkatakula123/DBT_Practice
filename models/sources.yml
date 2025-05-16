@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: test
+    database: airbnb
+    schema: raw
+    tables:
+      - name: raw_hosts
+      - name: raw_listings
+      - name: raw_reviews
+
