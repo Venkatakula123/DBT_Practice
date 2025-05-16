@@ -14,5 +14,6 @@ DBT Seed -m <seed_name >
 dbt seed -m customer
 
 dbt seed --full-refresh -m customer
+
 <img width="533" alt="image" src="https://github.com/user-attachments/assets/3f312fd2-7c18-4443-bb4e-4a4dc2b28b4e" />
 
