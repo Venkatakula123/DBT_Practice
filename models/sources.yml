@@ -8,4 +8,5 @@ sources:
       - name: raw_hosts
       - name: raw_listings
       - name: raw_reviews
+      - name: ads
 
