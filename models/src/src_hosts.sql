@@ -1,12 +1,6 @@
-{{config(materialized='table')}}
+{{ config(materialized="table") }}
 
-with src_hosts as (
-    Select *  from AIRBNB.RAW.RAW_HOSTS
-)
+with src_hosts as (select * from {{ source("test", "raw_hosts") }})
 
-Select 
-ID as host_id,
-    name as Host_name,
-    IS_SUPERHOST ,
-    created_at,
-    updated_at from src_hosts
+select id as host_id, name as host_name, is_superhost, created_at, updated_at
+from src_hosts
