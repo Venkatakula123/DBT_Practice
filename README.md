@@ -17,3 +17,7 @@ dbt seed --full-refresh -m customer => when we maade the chnages in schema by us
 
 <img width="533" alt="image" src="https://github.com/user-attachments/assets/3f312fd2-7c18-4443-bb4e-4a4dc2b28b4e" />
 
+dbt snapshot => it will run all the snapshots at a time 
+
+dbt snapshot --select <snapshot name>
+
