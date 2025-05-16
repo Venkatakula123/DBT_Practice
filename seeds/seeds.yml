@@ -1,0 +1,6 @@
+seeds:
+  - name: acccount
+    config:
+      column_types:
+        acno: varchar
+
