@@ -2,9 +2,8 @@
     config(
         materialized='table',
         query_tag = 'dep',
-         tags='daily'
+        tags='daily'
     )
 }}
 
-
-Select 'Avr' name, 2 ID, 55 markskk
+Select * from {{ref("A")}}
