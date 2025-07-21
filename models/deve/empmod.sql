@@ -7,4 +7,4 @@
     )
 }}
 
-Select * from emp
+Select * from {{source("test","emp")}}

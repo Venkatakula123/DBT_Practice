@@ -40,6 +40,4 @@ models:
       +materialized: view
     src:
       +materialized: ephemeral
-  All_M:
-    +materialized: table
-    transient: false
+
