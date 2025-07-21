@@ -10,4 +10,7 @@ sources:
       - name: raw_reviews
       - name: ads
       - name: c
+      - name: emp
+      - name: dept
+      
 
