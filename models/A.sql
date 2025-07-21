@@ -1,10 +1,4 @@
-{{
-    config(
-        materialized='table',
-        query_tag = 'dep',
-         tags='daily'
-    )
-}}
+{{ config(materialized="view", query_tag="dep", tags="daily") }}
 
 
-Select 'Avr' name, 2 ID, 55 markskk
+select 'Avr' name, 2 id, 55 markskk

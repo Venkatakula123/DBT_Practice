@@ -2,7 +2,8 @@
     config(
         materialized='table',
         alias = 'venkat_emp',
-        query_tag =  'dbt_qurs'
+        query_tag =  'dbt_qurs',
+        tag = 'Avr'
     )
 }}
 
