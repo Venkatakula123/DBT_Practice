@@ -9,4 +9,8 @@ sources:
       - name: raw_listings
       - name: raw_reviews
       - name: ads
+      - name: c
+      - name: emp
+      - name: dept
+      
 
