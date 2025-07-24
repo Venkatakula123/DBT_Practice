@@ -12,5 +12,10 @@ sources:
       - name: c
       - name: emp
       - name: dept
-      
+      - name: raw_orders 
 
+  - name: Exp
+    database: MYDB
+    schema: public
+    tables:
+      - name: Transactions
