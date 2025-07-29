@@ -1,0 +1,1 @@
+Select sex, {{gender('sex')}} as SexAbbre from {{ref('Gender')}}

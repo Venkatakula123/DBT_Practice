@@ -13,6 +13,10 @@ sources:
       - name: emp
       - name: dept
       - name: raw_orders 
+      - name: raw_Bankorders
+      - name: raw_payments
+      - name: raw_customers
+
 
   - name: Exp
     database: MYDB
