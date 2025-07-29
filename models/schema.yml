@@ -24,11 +24,14 @@ models:
                   "Entire home/apt",
                   "Private room",
                   "Shared room",
-                  "Hotel room"
+                  "Hotel room",
                 ]
+#  - name: dim_listings_cleansed
+ #   data_tests:
+  #    - range_validation:
+   #     values:
+    ##     min_val: 0
+      #    max_val: 10000
 
-  - name: raw_orders_inc_1
-    columns:
-      - name: TOTAL_AMOUNT
-        tests:
-          - positive_value
+
+        

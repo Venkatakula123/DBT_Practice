@@ -4,6 +4,13 @@ sources:
   - name: test
     database: airbnb
     schema: raw
+    freshness:
+      error_after:
+        count: 2
+        period: minute
+      warn_after:
+        count: 1
+        period: minute
     tables:
       - name: raw_hosts
       - name: raw_listings
@@ -12,11 +19,10 @@ sources:
       - name: c
       - name: emp
       - name: dept
-      - name: raw_orders 
+      - name: raw_orders
       - name: raw_Bankorders
       - name: raw_payments
       - name: raw_customers
-
 
   - name: Exp
     database: MYDB
