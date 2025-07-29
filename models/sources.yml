@@ -23,3 +23,7 @@ sources:
     schema: public
     tables:
       - name: Transactions
+        columns:
+          - name: Transaction_date
+          - name: Prod_id
+          - name: user_id
